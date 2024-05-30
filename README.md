@@ -19,6 +19,5 @@ git clone https://github.com/antoniotorresz/servo-http-server.git
 
 
 ## Usage
-
 ```shell
 python3 http_server.py
