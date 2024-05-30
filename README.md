@@ -14,9 +14,6 @@ Servo HTTP Server is a Flask-based backend server designed to control a GPIO ser
 
 Clone the repository to your Raspberry Pi:
 
-```shell
-git clone https://github.com/antoniotorresz/servo-http-server.git
-
 ## Usage
 Run the server with the following command:
 ```shell
