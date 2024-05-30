@@ -83,11 +83,9 @@ def on_is_activated_change(target, value, oldvalue, initiator):
         It prints a message indicating whether the servo is being activated or deactivated.
     """
     if value:
-        pass
-        #servo_hardware.move_servo()
+        servo_hardware.move_servo()
     else:
-        pass
-        #servo_hardware.stop_servo()
+        servo_hardware.stop_servo()
 
 @cross_origin()
 @app.route('/switch-action', methods=['POST'])
