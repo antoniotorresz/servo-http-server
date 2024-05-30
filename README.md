@@ -1,0 +1,18 @@
+# Servo HTTP Server
+
+## Overview
+
+Servo HTTP Server is a Flask-based backend server designed to control a GPIO servomotor on a Raspberry Pi. The server provides a collection of HTTP endpoints to manipulate the servomotor, making it possible to control the servomotor remotely via HTTP requests.
+
+## Prerequisites
+
+- Python 3.6+
+- Flask
+- Raspberry Pi with a GPIO servomotor
+
+## Installation
+
+Clone the repository to your Raspberry Pi:
+
+```shell
+git clone https://github.com/antoniotorresz/servo-http-server.git
